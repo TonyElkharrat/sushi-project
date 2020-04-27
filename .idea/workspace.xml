@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bdc318f-c0c5-41f2-b211-49acaa183284" name="Default Changelist" comment="" />
+    <list default="true" id="4bdc318f-c0c5-41f2-b211-49acaa183284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aqYFu9DYaEuhZqxS9lcoIzwimD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,9 +66,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587472244245">
+    <state x="462" y="144" width="611" height="536" key="find.popup" timestamp="1587971946122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587472244245" />
+    <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587971946122" />
+    <state x="682" y="214" key="run.anything.popup" timestamp="1587906828672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="682" y="214" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587906828672" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587890735545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587890735545" />
   </component>
 </project>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" charset="UTF-8">
     <title>Sushi Shop</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -29,7 +31,7 @@
     </header>
     <section class="section-features">
         <div class="row">
-            <ion-icon name="car-sport-outline" class="icon-design car"></ion-icon>
+            <ion-icon class="icon-design car icon-color" name="car-sport-outline"></ion-icon>
            <h2>Get delivery &mdash; very fast</h2>
             <p class="long-copy">
                 We have the potential to delivery all the world in few minutes . We disposing
@@ -37,22 +39,22 @@
             </p>
             <div class="row">
                 <div class="col span-1-of-4 box" >
-                    <ion-icon name="today-outline" class="icon-design"></ion-icon>
+                    <ion-icon class=" icon-design icon-color" name="today-outline" ></ion-icon>
                     <h3>Up to 365 days/year</h3>
                     <p>Never cook again.Let us do the best for you</p>
                 </div>
                 <div class="col span-1-of-4 box" >
-                    <ion-icon name="time-outline" class="icon-design"></ion-icon>
+                    <ion-icon class="icon-design icon-color" name="time-outline"></ion-icon>
                     <h3>Ready in 6 minutes</h3>
                     <p>We use modern technology for fast cooking </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <ion-icon name="nutrition-outline" class="icon-design"></ion-icon>
+                    <ion-icon class="icon-design icon-color" name="nutrition-outline" ></ion-icon>
                     <h3> 100% organic</h3>
                     <p>The best sushi without gluten and industrial products</p>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <ion-icon name="infinite-outline" class="icon-design"></ion-icon>
+                    <ion-icon class="icon-design icon-color" name="infinite-outline" ></ion-icon>
                     <h3>Unlimited order</h3>
                     <p>Simply order amount of what is your pleasure</p>
                 </div>
@@ -63,22 +65,22 @@
         <ul class="meal-list">
             <li>
               <figure>
-                 <img src="resources/img/1.jpg">
+                 <img src="resources/img/1.jpg" class="meal">
               </figure>  
             </li>
             <li>
               <figure>
-                  <img src="resources/img/2.jpg">
+                  <img src="resources/img/2.jpg" class="meal">
               </figure>  
             </li>
             <li>
               <figure>
-                  <img src="resources/img/3.jpg">
+                  <img src="resources/img/3.jpg" class="meal">
               </figure>
             </li>
             <li>
               <figure>
-                  <img src="resources/img/4.jpg">
+                  <img src="resources/img/4.jpg" class="meal">
               </figure>  
             </li>
             
@@ -86,22 +88,22 @@
         <ul class="meal-list">
             <li>
               <figure>
-                  <img src="resources/img/5.jpg">
+                  <img src="resources/img/5.jpg" class="meal">
               </figure>  
             </li>
             <li>
               <figure>
-                  <img src="resources/img/6.jpg">
+                  <img src="resources/img/6.jpg" class="meal">
               </figure>  
             </li>
             <li>
               <figure>
-                  <img src="resources/img/7.jpg">
+                  <img src="resources/img/7.jpg" class="meal">
               </figure>  
             </li>
             <li>
               <figure>
-                  <img src="resources/img/8.jpg">
+                  <img src="resources/img/8.jpg" class="meal">
               </figure>  
             </li>
             
@@ -140,7 +142,252 @@
             </div>
         </div>
     </section>
+        <div class="row">
+            <h2> we're currently in these cities</h2>
+        </div>
+         <div class="row">
+             <div class="col span-1-of-4 box">
+                 <figure>
+                     <img src="resources/img/new-york.jpg">
+                 </figure>
+                 <h3> New york</h3>
+                 <div>
+                 <ion-icon class="icon-color"  name="logo-instagram" ></ion-icon><p class="cities">1600+ followers</p>
+                 </div>
+                 <div>
+                 <ion-icon class="icon-color" name="fast-food-outline"></ion-icon><p class="cities">1600+ followers</p>
+                 </div>
+                 <ion-icon class="icon-color" name="logo-twitter"></ion-icon> <a class="cities" href="https://www.twitter.com"> 800+ tweet per day</a>
+             </div>
+             <div class="col span-1-of-4 box">
+                 <figure>
+                     <img src="resources/img/paris.jpg">
+                 </figure>
+                 <h3>Paris</h3>
+                 <div>
+                 <ion-icon  class="icon-color" name="logo-instagram"></ion-icon><p class="cities">2000+ followers</p>
+                 </div>
+                 <div>
+                 <ion-icon class="icon-color" name="fast-food-outline"></ion-icon><p class="cities">280 restaurant</p>
+                 </div>
+                 <ion-icon  class="icon-color" name="logo-twitter"></ion-icon> <a class="cities" href="https://www.twitter.com"> 800+ tweet per day</a>
+             </div>
+             <div class="col span-1-of-4">
+                 <figure>
+                     <img src="resources/img/rome.jpg">
+                 </figure>
+                 <h3>Rome</h3>
+                 <div>
+                 <ion-icon class="icon-color" name="logo-instagram"></ion-icon><p class="cities">700+ followers</p>
+                 </div>
+                 <div>
+                 <ion-icon class="icon-color" name="fast-food-outline"></ion-icon><p class="cities">140 restaurant</p>
+                 </div>
+                 <ion-icon class="icon-color" name="logo-twitter"></ion-icon> <a class="cities" href="https://www.twitter.com"> 800+ tweet per day</a>
+             </div>
+             <div class="col span-1-of-4">
+                 <figure>
+                     <img src="resources/img/tel%20aviv.jpg">
+                 </figure>
+                 <h3>Tel aviv</h3>
+                 <div>
+                 <ion-icon class="icon-color" name="logo-instagram"></ion-icon><p class="cities">800+ followers</p>
+                 </div>
+                 <div>
+                 <ion-icon class="icon-color" name="fast-food-outline"></ion-icon><p class="cities">330 restaurant</p>
+                 </div>
+                 <ion-icon class="icon-color" name="logo-twitter"></ion-icon> <a class="cities" href="https://www.twitter.com"> 800+ tweet per day</a>
+             </div>
+        </div>
+    <section class="reviews-section">
+        <div class="row">
+            <h2>Our customers can't without us</h2>
+        </div>
+        <div>
+            <div class="col span-1-of-3">
+                <blockquote>This sushi restaurant is awesome ! I have no time to cook and this is the best solution for me
+                    <cite>  <img src="resources/img/profil-picture-1.jpg" class="profil-picture"> Melissa Brown </cite>
+                </blockquote>
+            </div>
+
+            <div class="col span-1-of-3">
+                <blockquote>Simply the best suhi in the world .I am ordering all day , and all day its new great sensation !
+                    <cite>  <img src="resources/img/profil-picture-2.jpg" class="profil-picture"> Jessica Albert  </cite>
+                </blockquote>
+            </div>
+
+            <div class="col span-1-of-3">
+                <blockquote>The service is extremly fast and our society need exactly this king of restaurant
+                    <cite>  <img src="resources/img/profil-picture-3.jpg"class="profil-picture"> Richard Paterson </cite>
+                </blockquote>
+
+            </div>
+        </div>
+    </section>
+    <section class="price-plan-section">
+        <div class="row">
+            <h2>Start eating sushi today</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan">
+                        <div class="plan-box">
+                            <div>
+                        <h3>Pro</h3>
+                        <p class="price-details">399$ <span class="month"> /month</span></p>
+                        <p class="plan-price-meal">Thats only 14.60$ per day</p>
+                            </div>
+                    <div>
+                        <ul>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>1 meal every days</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Access to newest creations</li>
+                        <li> <ion-icon name="checkmark-outline"></ion-icon>Order 24/7 </li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div>
+                    <a class="btn btn-full btn-signup" href="#">Sign up</a>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Pro</h3>
+                            <p class="price-details">199$ <span class="month"> /month</span></p>
+                            <p class="plan-price-meal">Thats only 14.60$ per day</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon name="checkmark-outline"></ion-icon>1 meal every month</li>
+                                <li><ion-icon name="checkmark-outline"></ion-icon>Access to newest creations</li>
+                                <li> <ion-icon name="checkmark-outline"></ion-icon>Order 24/7 </li>
+                                <li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a class="btn btn-ghost btn-signup" href="#">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="plan">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Pro</h3>
+                            <p class="price-details">99$ <span class="month"> /month</span></p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon name="checkmark-outline"></ion-icon>1 meal every days</li>
+                                <li><ion-icon name="close-outline"></ion-icon></li>
+                                <li> <ion-icon name="checkmark-outline"></ion-icon>Order 24/7 </li>
+                                <li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a class="btn btn-ghost btn-signup" href="#">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section class="contact-us-section">
+        <div class="row">
+            <h2>We happy to hear you</h2>
+        </div>
+        <div class="row">
+        <form method="post">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name"> Name:</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" placeholder="your name" id="name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email"> Email:</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" placeholder="your email" id="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email"> Email:</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <select>Find us
+                        <option>New york</option>
+                        <option>Paris</option>
+                        <option>Tel Aviv</option>
+                        <option>Roma</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="newsletter"> Newsletter?:</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="checkbox" id="newsletter"> Yes please
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="comment"> Drop us a line:</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea id="comment" placeholder="Write here">
+
+                    </textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <label for="comment"> &nbsp; </label>
+                </div>
+                <div class="col span-1-of-2">
+                    <input type="submit" class=" btn btn-full" value="Send it!">
+
+                </div>
+            </div>
+
+        </form>
+
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>About us</li>
+                    <li>News</li>
+                    <li>Android App</li>
+                    <li>Ios App</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#" class="logo-foooter"><ion-icon name="logo-facebook" ></ion-icon></a></li>
+                    <li><a href="#" class="logo-foooter"><ion-icon name="logo-instagram" ></ion-icon></a></li>
+                    <li><a href="#" class="logo-foooter"><ion-icon name="logo-twitter"  ></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p class="copyright">Copyright &copy; 2015-2020 by sushi shop.All rights reserved</p>
+        </div>
+    </footer>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
-
 </html>

@@ -31,9 +31,11 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .header-box{
+
     position: absolute;
     width: 1140px;
     top: 50%;
@@ -75,13 +77,13 @@ h2:after{
     content: " ";
     background-color: #e67e22;
     height: 2px;
-    width: 600px;
+    width: 100%;
     margin: 30px auto;
 }
 
 /*-----------BUTTONS--------------- */
 
-.btn:link,btn:visited {
+.btn:link,btn:visited,input[type=submit] {
     display: inline-block;
     padding: 10px 30px ;
     font-weight: 300;
@@ -90,7 +92,7 @@ h2:after{
     transition: background-color 0.5s,border 0.2s , color 0.2s;
 }
 
-.btn-full,btn:visited{
+.btn-full,btn:visited,input[type=submit]{
     background-color: #e67e22;
     border: 1px solid #e67e22 ;
     color: white;
@@ -98,7 +100,7 @@ h2:after{
 
 }
 
-.btn:hover,btn:active{
+.btn:hover,btn:active,input[type=submit]:active,input[type=submit]:hover{
     background-color: #bf6516;
 }
 
@@ -148,7 +150,6 @@ h2:after{
     padding-bottom: 10px;
 }
 .icon-design{
-    color: #e67e22!important;
     height: 50px;
     width: 70%;
     margin-left:15%;
@@ -166,7 +167,7 @@ section{
     margin: 0 auto 40px;
 }
 
-box{
+.box{
     padding: 1%;
 }
  .meal-list {
@@ -181,12 +182,12 @@ box{
 figure{
     overflow: hidden;
 }
-figure img:hover{
+
+.meal:hover{
     opacity: 1.5;
     transform: scale(1.03);
-
 }
-figure img {
+.meal {
     width: 100%;
     transition: transform 0.5s;
     transform: scale(1.15);
@@ -224,6 +225,7 @@ figure img {
     width: 37.5%;
     height: 37.5%;
 }
+
 .circle {
     width: 50px;
     color: #555555;
@@ -234,4 +236,131 @@ figure img {
     padding: 5px 5px 5px 13px;
     font-size: 150%;
     margin-right: 15px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.icon-color,.icon-color + a{
+    color: #e67e22!important;
+}
+.ion-icon{
+    padding:3%;
+}
+
+.cities{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.reviews-section{
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)),url("img/background-2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.profil-picture{
+    width: 30%;
+    height: 30%;
+    border-radius: 500px;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+blockquote:before{
+    position: absolute;
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    top: 2px;
+    left: 0;
+}
+blockquote{
+    position: relative;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+cite{
+    font-size: 90%;
+    display: block;
+    padding: 3%;
+}
+.price-plan-section{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 5%;
+    background-color: white;
+    padding: 5%;
+}
+
+li {
+    list-style: none;
+}
+
+.plan-box div{
+    padding: 5%;
+    border-bottom: 1px solid #cecece;
+}
+
+.price-details{
+
+    font-size: 300%;
+    margin-bottom: 10px;
+    color: #e67e22;
+}
+
+.plan-price-meal{
+    font-size: 80%;
+}
+.plan-box div:last-child{
+    text-align: center;
+    border:0;
+}
+.month {
+    font-size: 40%;
+}
+
+ul li{
+  padding: 5px 0;
+}
+#submit-btn{
+    text-align: center;
+}
+.footer-nav li{
+    float: left;
+    margin: 2%;
+    color: #e67e22;
+}
+.social-links li {
+    display: inline;
+}
+.logo-foooter{
+    float: right;
+    margin-left: 2%;
+    color: #e67e22;
+
+}
+.footer-section{
+    background-color: #5c5c5c;
+}
+
+.copyright{
+    color: white;
+    margin-bottom: 5%;
+}
+input[type=text],input[type=email],select,textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px #e67e22 solid;
 }
